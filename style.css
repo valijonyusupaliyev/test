@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    background-color: rgb(44, 9, 76);
+    width: 90%px;
+    height: 800px;
+    border-radius: 50px;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+
+
+.box1{
+   width: 100%;
+   display:flex ;
+   padding: 30px;
+   justify-content: space-evenly;
+}
+.child {
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 200px;
+}
+
+.box2 {
+    width: 100%;
+    padding: 30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rasm {
+    border-style:solid;
+    border-width: 5px;
+    
+    width: 450px;
+    height: 250px;
+}
+.box3 {
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    border-radius: 30px;
+    color: azure;
+    height: 90px;
+    padding: 45px;
+    padding-top: 30px;
+    
+}
+.code{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.box4 {
+ width: 300px;
+ border-style:solid;
+ border-width: 50px;
+ border-color: red;
+ border-radius: 40px;
+}
+.code1{
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 300px;
+}
+
+.yozuv {
+    width: 100%;
+    height: 100px;
+    background-color: yellowgreen;
+    padding: 20px;
+}
